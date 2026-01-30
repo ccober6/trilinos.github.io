@@ -262,7 +262,7 @@ The Trilinos packages are organized into three main areas: **Core**, **Solvers**
   <tr>
     <td><a href="minitensor.html" title="MiniTensor">MiniTensor</a></td>
     <td>Tools for the manipulation and optimization of small vectors/tensors.</td>
-    <td><a href="docs/minitensor/index.html">MiniTensor Doxygen</a></td>
+    <td>N/A</td>
     <td><a href="https://github.com/trilinos/Trilinos/tree/master/packages/minitensor">MiniTensor</a></td>
     <td><a href="https://github.com/orgs/trilinos/teams/minitensor">@minitensor</a></td>
     <td><a href="mailto:amota@sandia.gov">Alejandro Mota</a> (<a href="https://github.com/lxmota">@lxmota</a>)</td>
