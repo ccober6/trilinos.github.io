@@ -873,6 +873,10 @@ template&lt;class T &gt; </td></tr>
 template&lt;class T &gt; </td></tr>
 <tr class="memitem:a2dae9a4344e7b76ab06cad9357009161"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>scalar_flat_view_t</b> = decltype(reinterpret_as_unmanaged_scalar_flat_view(std::declval&lt; T &gt;()))</td></tr>
 <tr class="separator:a2dae9a4344e7b76ab06cad9357009161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecdf9e5725c955b5972f632a60b06bb" id="r_abecdf9e5725c955b5972f632a60b06bb"><td class="memTemplParams" colspan="2"><a id="abecdf9e5725c955b5972f632a60b06bb" name="abecdf9e5725c955b5972f632a60b06bb"></a>
+template&lt;class T &gt; </td></tr>
+<tr class="memitem:abecdf9e5725c955b5972f632a60b06bb"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><b>scalar_columnwise_flat_view_t</b> = decltype(reinterpret_as_unmanaged_scalar_columnwise_flat_view(std::declval&lt; T &gt;()))</td></tr>
+<tr class="separator:abecdf9e5725c955b5972f632a60b06bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -1101,36 +1105,46 @@ template&lt;typename DstView , typename SrcView &gt; </td></tr>
 template&lt;typename DstView , typename SrcView &gt; </td></tr>
 <tr class="memitem:aa7cf93334c27a893c2beab1bcbb61e8d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>copy_scalar_to_pce</b> (const DstView &amp;dst, const SrcView &amp;src)</td></tr>
 <tr class="separator:aa7cf93334c27a893c2beab1bcbb61e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15578c6f57febd6147b7dfd473c1a4b6" id="r_a15578c6f57febd6147b7dfd473c1a4b6"><td class="memTemplParams" colspan="2"><a id="a15578c6f57febd6147b7dfd473c1a4b6" name="a15578c6f57febd6147b7dfd473c1a4b6"></a>
+<tr class="memitem:ab0c8176fa85cf246cbb4c1841c20a9eb" id="r_ab0c8176fa85cf246cbb4c1841c20a9eb"><td class="memTemplParams" colspan="2"><a id="ab0c8176fa85cf246cbb4c1841c20a9eb" name="ab0c8176fa85cf246cbb4c1841c20a9eb"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (!is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:a15578c6f57febd6147b7dfd473c1a4b6"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:a15578c6f57febd6147b7dfd473c1a4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef940947daa600cddadcdc1467e8f2d" id="r_aeef940947daa600cddadcdc1467e8f2d"><td class="memTemplParams" colspan="2"><a id="aeef940947daa600cddadcdc1467e8f2d" name="aeef940947daa600cddadcdc1467e8f2d"></a>
+<tr class="memitem:ab0c8176fa85cf246cbb4c1841c20a9eb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:ab0c8176fa85cf246cbb4c1841c20a9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc5fa30b05c967e4e4924f60bf42ffb6" id="r_acc5fa30b05c967e4e4924f60bf42ffb6"><td class="memTemplParams" colspan="2"><a id="acc5fa30b05c967e4e4924f60bf42ffb6" name="acc5fa30b05c967e4e4924f60bf42ffb6"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:aeef940947daa600cddadcdc1467e8f2d"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:aeef940947daa600cddadcdc1467e8f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687a4da9e30f5f4436e279867a867f65" id="r_a687a4da9e30f5f4436e279867a867f65"><td class="memTemplParams" colspan="2"><a id="a687a4da9e30f5f4436e279867a867f65" name="a687a4da9e30f5f4436e279867a867f65"></a>
+<tr class="memitem:acc5fa30b05c967e4e4924f60bf42ffb6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:acc5fa30b05c967e4e4924f60bf42ffb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab6b8c52d31cd0f7324e960bf52c6b6" id="r_a0ab6b8c52d31cd0f7324e960bf52c6b6"><td class="memTemplParams" colspan="2"><a id="a0ab6b8c52d31cd0f7324e960bf52c6b6" name="a0ab6b8c52d31cd0f7324e960bf52c6b6"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (!is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:a687a4da9e30f5f4436e279867a867f65"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:a687a4da9e30f5f4436e279867a867f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad40b1be34442e194cd9b3fa85e987d3c" id="r_ad40b1be34442e194cd9b3fa85e987d3c"><td class="memTemplParams" colspan="2"><a id="ad40b1be34442e194cd9b3fa85e987d3c" name="ad40b1be34442e194cd9b3fa85e987d3c"></a>
+<tr class="memitem:a0ab6b8c52d31cd0f7324e960bf52c6b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:a0ab6b8c52d31cd0f7324e960bf52c6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4bd2ab11606e2ddbfe3be9bc9b7849" id="r_a8a4bd2ab11606e2ddbfe3be9bc9b7849"><td class="memTemplParams" colspan="2"><a id="a8a4bd2ab11606e2ddbfe3be9bc9b7849" name="a8a4bd2ab11606e2ddbfe3be9bc9b7849"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:ad40b1be34442e194cd9b3fa85e987d3c"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:ad40b1be34442e194cd9b3fa85e987d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7a02e78a20563394f573278c8978559" id="r_ae7a02e78a20563394f573278c8978559"><td class="memTemplParams" colspan="2"><a id="ae7a02e78a20563394f573278c8978559" name="ae7a02e78a20563394f573278c8978559"></a>
+<tr class="memitem:a8a4bd2ab11606e2ddbfe3be9bc9b7849"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:a8a4bd2ab11606e2ddbfe3be9bc9b7849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede978f217251c283d86961d7927c850" id="r_aede978f217251c283d86961d7927c850"><td class="memTemplParams" colspan="2"><a id="aede978f217251c283d86961d7927c850" name="aede978f217251c283d86961d7927c850"></a>
+template&lt;class DataType , class ... Args&gt; <br />
+requires (!is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
+<tr class="memitem:aede978f217251c283d86961d7927c850"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_columnwise_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:aede978f217251c283d86961d7927c850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f39f5853630048f7e4438edd6f6c78b" id="r_a2f39f5853630048f7e4438edd6f6c78b"><td class="memTemplParams" colspan="2"><a id="a2f39f5853630048f7e4438edd6f6c78b" name="a2f39f5853630048f7e4438edd6f6c78b"></a>
+template&lt;class DataType , class ... Args&gt; <br />
+requires (is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt; &amp;&amp; (Kokkos::View&lt;DataType, Args...&gt;::rank() == 2) &amp;&amp; (std::same_as&lt;typename Kokkos::View&lt;DataType, Args...&gt;::layout_type, Kokkos::LayoutLeft&gt; || std::same_as&lt;typename Kokkos::View&lt;DataType, Args...&gt;::layout_type, Kokkos::Experimental::layout_left_padded&lt;Kokkos::dynamic_extent&gt;&gt;))</td></tr>
+<tr class="memitem:a2f39f5853630048f7e4438edd6f6c78b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_columnwise_flat_view</b> (const Kokkos::View&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:a2f39f5853630048f7e4438edd6f6c78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5f2fc440979534d856b27fbef742d7" id="r_a6c5f2fc440979534d856b27fbef742d7"><td class="memTemplParams" colspan="2"><a id="a6c5f2fc440979534d856b27fbef742d7" name="a6c5f2fc440979534d856b27fbef742d7"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (!is_mp_vector_v&lt;typename Kokkos::DualView&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:ae7a02e78a20563394f573278c8978559"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_dual_view_of_same_rank</b> (const Kokkos::DualView&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:ae7a02e78a20563394f573278c8978559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e81d8e64d92d25dd735a6d49001ede" id="r_a09e81d8e64d92d25dd735a6d49001ede"><td class="memTemplParams" colspan="2"><a id="a09e81d8e64d92d25dd735a6d49001ede" name="a09e81d8e64d92d25dd735a6d49001ede"></a>
+<tr class="memitem:a6c5f2fc440979534d856b27fbef742d7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_dual_view_of_same_rank</b> (const Kokkos::DualView&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:a6c5f2fc440979534d856b27fbef742d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42488090e849267db347d2877a6342ea" id="r_a42488090e849267db347d2877a6342ea"><td class="memTemplParams" colspan="2"><a id="a42488090e849267db347d2877a6342ea" name="a42488090e849267db347d2877a6342ea"></a>
 template&lt;class DataType , class ... Args&gt; <br />
 requires (is_mp_vector_v&lt;typename Kokkos::View&lt;DataType, Args...&gt;::value_type&gt;)</td></tr>
-<tr class="memitem:a09e81d8e64d92d25dd735a6d49001ede"><td class="memTemplItemLeft" align="right" valign="top">KOKKOS_FUNCTION auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_dual_view_of_same_rank</b> (const Kokkos::DualView&lt; DataType, Args... &gt; &amp;view)</td></tr>
-<tr class="separator:a09e81d8e64d92d25dd735a6d49001ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42488090e849267db347d2877a6342ea"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>reinterpret_as_unmanaged_scalar_dual_view_of_same_rank</b> (const Kokkos::DualView&lt; DataType, Args... &gt; &amp;view)</td></tr>
+<tr class="separator:a42488090e849267db347d2877a6342ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a449dd328100d535c17dfcc2e7622d3bf" id="r_a449dd328100d535c17dfcc2e7622d3bf"><td class="memTemplParams" colspan="2"><a id="a449dd328100d535c17dfcc2e7622d3bf" name="a449dd328100d535c17dfcc2e7622d3bf"></a>
 template&lt;typename Matrix , typename Vector , typename Ordinal &gt; </td></tr>
 <tr class="memitem:a449dd328100d535c17dfcc2e7622d3bf"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><b>CG_Solve</b> (const Matrix &amp;A, Vector &amp;x, const Vector &amp;b, typename Vector::mag_type tol, Ordinal max_its, std::ostream *out=0)</td></tr>
