@@ -75,91 +75,69 @@ $(function() {
 <div class="textblock"><p>Belos is an extensible and interoperable C++ framework for the numerical solution of large-scale linear systems of equations. It provides a collection of iterative linear solver algorithms, which work for any combination of matrix, preconditioner, and vector types which make sense together. <br  />
 </p>
 <p>Belos is interoperable because it accesses matrices, preconditioners, and vectors as opaque objects with simple interfaces. These interfaces do not depend on the internal representation of these objects. Belos' solvers only use matrices and preconditioners as black-box "operators" that take one or more vectors as input, and return the same number of vectors as output. They only access vectors via a simple interface for adding vectors together or computing their inner products or norms.</p>
-<p>Implementations of operator and vector interfaces for Epetra, Tpetra, and Thyra objects are provided. As a result, any existing code employing Epetra, Tpetra, or Thyra operators and vectors (such as other packages in Trilinos) may also be used in conjunction with Belos. Belos is extensible because users may define this interface for their own operators and vectors. This allows them to use any Belos solver with their objects without changing a line of Belos code. Defining this interface requires only a modest effort, and Belos provides plenty of examples. For more details, please refer to the Belos Operator/Vectorabstract interface".
-
-The \ref belos_solver_framework "<a class="el" href="namespace_belos.html">Belos</a> linear solver framework"
-describes solver managers that provide efficient, convenient, and
-powerful computational methods for solving large-scale linear systems
-of equations. %Belos' power is a result of the distribution of
-functionality across different computational entities in the
-framework, including orthogonalization, iterations, stopping criteria,
-and restarting methodologies.  %Belos' extensibility comes via the
-abstract interfaces describing these entities.  %Belos currently
-provides a robust set of options, and users are able to expand this
-set to suit specific research and/or application needs.  The ability
-to interact directly with these objects provides great flexibility in
-computation, while the existence of solver managers allow convenient
-programming for standard use cases.
-
-@section solvers Current Linear Solvers 
-
-%Belos provides a framework capable of solving a wide variety of
-linear systems of equations.  %Belos can currently solve 
-real-valued (often complex-valued), Hermitian and non-Hermitian, linear problems, 
-via the following included solvers:
-
-   &lt;ul&gt;
-   &lt;li&gt;Single-vector and block GMRES
-   &lt;li&gt;Single-vector and block CG
-   &lt;li&gt;Pseudo-block variants (perform single-vector algorithms simultaneously):  pseudo-block CG, pseudo-block GMRES
-   &lt;li&gt;Recycling solvers:  GCRO-DR and RCG
-   &lt;li&gt;Flexible variants:  Flexible GMRES
-   &lt;/ul&gt;
-
-@section Belos_contributors Belos Contributors
-
-   The following people have contributed to the development of %Belos:
-
-   &lt;ul&gt;
-     &lt;li&gt; &lt;a href="<a href="http://www.csm.ornl.gov/~cbaker">http://www.csm.ornl.gov/~cbaker</a>"&gt;Chris Baker&lt;/a&gt;, Oak Ridge National Laboratory
-     &lt;li&gt; &lt;a href="<a href="http://www.sandia.gov/~maherou">http://www.sandia.gov/~maherou</a>"&gt;Mike Heroux&lt;/a&gt;, Sandia National Laboratory
-     &lt;li&gt; David Day, Sandia National Laboratory
-     &lt;li&gt; &lt;a href="<a href="http://www.cs.berkeley.edu/~mhoemmen/">http://www.cs.berkeley.edu/~mhoemmen/</a>"&gt;Mark Hoemmen&lt;/a&gt;, Sandia National Laboratory
-     &lt;li&gt; &lt;a href="<a href="http://www.math.ttu.edu/~vhowle">http://www.math.ttu.edu/~vhowle</a>"&gt;Vicki Howle&lt;/a&gt;, Texas Tech University
-     &lt;li&gt; &lt;a href="<a href="http://www.sandia.gov/~rblehou">http://www.sandia.gov/~rblehou</a>"&gt;Rich Lehoucq&lt;/a&gt;, Sandia National Laboratory
-     &lt;li&gt; &lt;a href="<a href="http://www.sandia.gov/~mlparks">http://www.sandia.gov/~mlparks</a>"&gt;Mike Parks&lt;/a&gt;, Sandia National Laboratory
-     &lt;li&gt; Nico Schloemer, Universitaet Antwerpen
-     &lt;li&gt; &lt;a href="<a href="http://www.cs.sandia.gov/~hkthorn/">http://www.cs.sandia.gov/~hkthorn/</a>"&gt;Heidi Thornquist&lt;/a&gt;, Sandia National Laboratory
-   &lt;/ul&gt;
-
-@section starting_place Where to start
-
-A good place for new users to start is with Belos::SolverFactory.
-This factory class lets the user ask for the %Belos solver they want by
-its string name.  For example, you can ask for "GMRES" or "CG" by name
-and the SolverFactory will create that solver, without you needing to
-know the name of the corresponding class in %Belos.  You may also pass
-parameters (via Teuchos::ParameterList) to the solver at this time.
-All solvers that SolverFactory creates implement the
-Belos::SolverManager interface.
-
-@section belos_browser Browse all of Belos as a single doxygen collection
-
-You can browse all of %Belos as a &lt;A HREF="../../browser/doc/html/index.html"&gt;single
-doxygen collection&lt;/A&gt;. Warning, this is not the recommended way to learn
-about %Belos software.  However, this is a good way to browse the &lt;a
-href="../../browser/doc/html/dirs.html"&gt;directory structure of belos&lt;/a&gt;, to &lt;a
-href="../../browser/doc/html/files.html"&gt;locate files&lt;/a&gt;, etc.
-
-@section belos_thyra Thyra support
-
-The &lt;a href="../../thyra/doc/html/index.html"&gt;Belos to Thyra Linear Solver
-Adapters&lt;/a&gt; take &lt;tt&gt;Thyra::LinearOpBase&lt;/tt&gt; objects and turn them into
-&lt;tt&gt;Thyra::LinearOpWithSolveBase&lt;/tt&gt; objects which can then be used to solve
-linear systems using %Belos linear solvers implementations.
-
-@section belos_faq Frequently Asked Questions
-
-If you are an AztecOO user and would like to have similar style output in
-Belos, here is an example of how to do it.
-
-@code 
-  typedef PseudoBlockGmresSolMgr&lt;scalar_type, MV, OP&gt; solver_type;
-  params-&gt;set("Verbosity",Belos::Errors + Belos::Warnings + Belos::StatusTestDetails);
-  int frequency=10;
-  params-&gt;set("Output Frequency",frequency);
-  params-&gt;set("Output Style",<a class="el" href="namespace_belos.html#a9ced295f4b474d2c545f344204940f41a71563ba06e0e9c47c0277314d4171df3">Belos::Brief</a>); solver_type solver (problem, params);  </p>
-</div></div><!-- PageDoc -->
+<p>Implementations of operator and vector interfaces for Epetra, Tpetra, and Thyra objects are provided. As a result, any existing code employing Epetra, Tpetra, or Thyra operators and vectors (such as other packages in Trilinos) may also be used in conjunction with Belos. Belos is extensible because users may define this interface for their own operators and vectors. This allows them to use any Belos solver with their objects without changing a line of Belos code. Defining this interface requires only a modest effort, and Belos provides plenty of examples. For more details, please refer to the Belos Operator/Vector abstract interface.</p>
+<p>The Belos linear solver framework describes solver managers that provide efficient, convenient, and powerful computational methods for solving large-scale linear systems of equations. Belos' power is a result of the distribution of functionality across different computational entities in the framework, including orthogonalization, iterations, stopping criteria, and restarting methodologies. Belos' extensibility comes via the abstract interfaces describing these entities. Belos currently provides a robust set of options, and users are able to expand this set to suit specific research and/or application needs. The ability to interact directly with these objects provides great flexibility in computation, while the existence of solver managers allow convenient programming for standard use cases.</p>
+<h1><a class="anchor" id="solvers"></a>
+Current Linear Solvers</h1>
+<p>Belos provides a framework capable of solving a wide variety of linear systems of equations. Belos can currently solve real-valued (often complex-valued), Hermitian and non-Hermitian, linear problems, via the following included solvers:</p>
+<ul>
+<li>
+Single-vector and block GMRES </li>
+<li>
+Single-vector and block CG </li>
+<li>
+Pseudo-block variants (perform single-vector algorithms simultaneously): pseudo-block CG, pseudo-block GMRES </li>
+<li>
+Recycling solvers: GCRO-DR and RCG </li>
+<li>
+Flexible variants: Flexible GMRES </li>
+</ul>
+<h1><a class="anchor" id="Belos_contributors"></a>
+Belos Contributors</h1>
+<p>The following people have contributed to the development of Belos:</p>
+<ul>
+<li>
+<a href="http://www.csm.ornl.gov/~cbaker">Chris Baker</a>, Oak Ridge National Laboratory </li>
+<li>
+<a href="http://www.sandia.gov/~maherou">Mike Heroux</a>, Sandia National Laboratory </li>
+<li>
+David Day, Sandia National Laboratory </li>
+<li>
+<a href="http://www.cs.berkeley.edu/~mhoemmen/">Mark Hoemmen</a>, Sandia National Laboratory </li>
+<li>
+<a href="http://www.math.ttu.edu/~vhowle">Vicki Howle</a>, Texas Tech University </li>
+<li>
+<a href="http://www.sandia.gov/~rblehou">Rich Lehoucq</a>, Sandia National Laboratory </li>
+<li>
+<a href="http://www.sandia.gov/~mlparks">Mike Parks</a>, Sandia National Laboratory </li>
+<li>
+Nico Schloemer, Universitaet Antwerpen </li>
+<li>
+<a href="http://www.cs.sandia.gov/~hkthorn/">Heidi Thornquist</a>, Sandia National Laboratory </li>
+</ul>
+<h1><a class="anchor" id="starting_place"></a>
+Where to start</h1>
+<p>A good place for new users to start is with <a class="el" href="namespace_belos.html#af94bf9d3589b6f8d204206e6a86f38a5">Belos::SolverFactory</a>. This factory class lets the user ask for the Belos solver they want by its string name. For example, you can ask for "GMRES" or "CG" by name and the SolverFactory will create that solver, without you needing to know the name of the corresponding class in Belos. You may also pass parameters (via Teuchos::ParameterList) to the solver at this time. All solvers that SolverFactory creates implement the <a class="el" href="class_belos_1_1_solver_manager.html" title="The Belos::SolverManager is a templated virtual base class that defines the basic interface that any ...">Belos::SolverManager</a> interface.</p>
+<h1><a class="anchor" id="belos_browser"></a>
+Browse all of Belos as a single doxygen collection</h1>
+<p>You can browse all of Belos as a <a href="../../browser/doc/html/index.html">single doxygen collection</a>. Warning, this is not the recommended way to learn about Belos software. However, this is a good way to browse the <a href="../../browser/doc/html/dirs.html">directory structure of belos</a>, to <a href="../../browser/doc/html/files.html">locate files</a>, etc.</p>
+<h1><a class="anchor" id="belos_thyra"></a>
+Thyra support</h1>
+<p>The <a href="../../thyra/doc/html/index.html">Belos to Thyra Linear Solver Adapters</a> take <code>Thyra::LinearOpBase</code> objects and turn them into <code>Thyra::LinearOpWithSolveBase</code> objects which can then be used to solve linear systems using Belos linear solvers implementations.</p>
+<h1><a class="anchor" id="belos_faq"></a>
+Frequently Asked Questions</h1>
+<p>If you are an AztecOO user and would like to have similar style output in <a class="el" href="namespace_belos.html">Belos</a>, here is an example of how to do it.</p>
+<div class="fragment"><div class="line"><span class="keyword">typedef</span> PseudoBlockGmresSolMgr&lt;scalar_type, MV, OP&gt; solver_type;</div>
+<div class="line">params-&gt;set(<span class="stringliteral">&quot;Verbosity&quot;</span>,<a class="code hl_enumvalue" href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a63033b406b3bb6a654a538f9b13e34ec">Belos::Errors</a> + <a class="code hl_enumvalue" href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a7ea40ab539dda8218818a3b391f88ff7">Belos::Warnings</a> + <a class="code hl_enumvalue" href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a214b85228315388f0b0fea24202ba4e4">Belos::StatusTestDetails</a>);</div>
+<div class="line"><span class="keywordtype">int</span> frequency=10;</div>
+<div class="line">params-&gt;set(<span class="stringliteral">&quot;Output Frequency&quot;</span>,frequency);</div>
+<div class="line">params-&gt;set(<span class="stringliteral">&quot;Output Style&quot;</span>,<a class="code hl_enumvalue" href="namespace_belos.html#a9ced295f4b474d2c545f344204940f41a71563ba06e0e9c47c0277314d4171df3">Belos::Brief</a>);</div>
+<div class="line">solver_type solver (problem, params); </div>
+<div class="ttc" id="anamespace_belos_html_a2a2aa51a3ef87c278fd43945578b3612a214b85228315388f0b0fea24202ba4e4"><div class="ttname"><a href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a214b85228315388f0b0fea24202ba4e4">Belos::StatusTestDetails</a></div><div class="ttdeci">@ StatusTestDetails</div><div class="ttdef"><b>Definition</b> <a href="_belos_types_8hpp_source.html#l00229">BelosTypes.hpp:229</a></div></div>
+<div class="ttc" id="anamespace_belos_html_a2a2aa51a3ef87c278fd43945578b3612a63033b406b3bb6a654a538f9b13e34ec"><div class="ttname"><a href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a63033b406b3bb6a654a538f9b13e34ec">Belos::Errors</a></div><div class="ttdeci">@ Errors</div><div class="ttdef"><b>Definition</b> <a href="_belos_types_8hpp_source.html#l00223">BelosTypes.hpp:223</a></div></div>
+<div class="ttc" id="anamespace_belos_html_a2a2aa51a3ef87c278fd43945578b3612a7ea40ab539dda8218818a3b391f88ff7"><div class="ttname"><a href="namespace_belos.html#a2a2aa51a3ef87c278fd43945578b3612a7ea40ab539dda8218818a3b391f88ff7">Belos::Warnings</a></div><div class="ttdeci">@ Warnings</div><div class="ttdef"><b>Definition</b> <a href="_belos_types_8hpp_source.html#l00224">BelosTypes.hpp:224</a></div></div>
+<div class="ttc" id="anamespace_belos_html_a9ced295f4b474d2c545f344204940f41a71563ba06e0e9c47c0277314d4171df3"><div class="ttname"><a href="namespace_belos.html#a9ced295f4b474d2c545f344204940f41a71563ba06e0e9c47c0277314d4171df3">Belos::Brief</a></div><div class="ttdeci">@ Brief</div><div class="ttdef"><b>Definition</b> <a href="_belos_types_8hpp_source.html#l00110">BelosTypes.hpp:110</a></div></div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 
 <!-- Assumes Doxygen adds the jquery script. Otherwise, uncomment following
