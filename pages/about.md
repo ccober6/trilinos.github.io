@@ -64,15 +64,10 @@ Performance portability is achieved through the Kokkos ecosystem, which provides
 ### R&D 100 Award (2004)
 Trilinos received a prestigious R&D 100 Award in 2004, recognizing it as one of the "100 most technologically significant products introduced in the past year." 
 
-- [R&D Magazine: R&D 100 Awards Software](http://www.rdmag.com/award-winners/2004/08/pearl-real-gem)
-- [Sandia National Labs News Center: Sandia wins two R&D 100 Awards](https://software.sandia.gov/trilinos/TrilinosRD100Newsnote.pdf)
 - [New Mexico Business Weekly: New Mexico firms, labs earn R&D awards](http://www.bizjournals.com/albuquerque/stories/2004/07/12/daily6.html)
 
 ### SC2004 HPC Software Challenge Award
 Trilinos was awarded one of two HPC Software Challenge Awards at SC2004 for its commitment to professional software engineering practices and processes. 
-
-- [SC2004 HPC Software Challenge Details](http://www.sc-conference.org/sc2004/hpc_challenge.html)
-- [SC2004 Conference Award Winners](http://www.sc-conference.org/sc2004/awards.html)
 
 ---
 

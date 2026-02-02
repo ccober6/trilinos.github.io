@@ -181,6 +181,13 @@ The Trilinos packages are organized into three main areas: **Core**, **Solvers**
     <td><a href="https://github.com/orgs/trilinos/teams/muelu">@muelu</a></td>
     <td><a href="mailto:jhu@sandia.gov">Jonathan Hu</a> (<a href="https://github.com/jhux2">@jhux2</a>)</td>
   </tr>
+  <td><a href="nox_and_loca.html" title="NOX">NOX</a></td>
+    <td>Implements a variety of Newton-based globalization techniques including Line Search and Trust Region algorithms. Provides higher and lower order models using Broyden and Tensor algorithms. Special algorithms for use with inexact linear solvers such as Krylov subspace techniques.</td>
+    <td><a href="docs/nox/index.html">NOX Doxygen</a></td>
+    <td><a href="https://github.com/trilinos/Trilinos/tree/master/packages/nox">NOX</a></td>
+    <td><a href="https://github.com/orgs/trilinos/teams/nox">@nox</a></td>
+    <td><a href="mailto:rppawlo@sandia.gov">Roger Pawlowski</a> (<a href="https://github.com/rppawlo">@rppawlo</a>)</td>
+  </tr>
   <tr>
     <td><a href="shylu.html" title="ShyLU">ShyLU</a></td>
     <td>Package for solving sparse linear systems using domain decomposition methods, focusing on distributed memory and node-level solvers.</td>
@@ -255,7 +262,7 @@ The Trilinos packages are organized into three main areas: **Core**, **Solvers**
   <tr>
     <td><a href="minitensor.html" title="MiniTensor">MiniTensor</a></td>
     <td>Tools for the manipulation and optimization of small vectors/tensors.</td>
-    <td><a href="docs/minitensor/index.html">MiniTensor Doxygen</a></td>
+    <td>N/A</td>
     <td><a href="https://github.com/trilinos/Trilinos/tree/master/packages/minitensor">MiniTensor</a></td>
     <td><a href="https://github.com/orgs/trilinos/teams/minitensor">@minitensor</a></td>
     <td><a href="mailto:amota@sandia.gov">Alejandro Mota</a> (<a href="https://github.com/lxmota">@lxmota</a>)</td>
