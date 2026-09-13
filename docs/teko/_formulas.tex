@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+  \makeatletter
+    \def\doxynewunicodechar#1#2{%
+    \@tempswafalse
+    \edef\nuc@tempa{\detokenize{#1}}%
+    \if\relax\nuc@tempa\relax
+      \nuc@emptyargerr
+    \else
+      \edef\@tempb{\expandafter\@car\nuc@tempa\@nil}%
+      \nuc@check
+      \if@tempswa
+        \@namedef{u8:\nuc@tempa}{#2}%
+      \fi
+    \fi
+  }
+  \makeatother
+  \doxynewunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \doxynewunicodechar{²}{${}^{2}$}% Superscript two
+  \doxynewunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$A_{ij}$
+\pagebreak
+
+$M^{-1} = \operatorname{diag}(A_{00}^{-1}, A_{11}^{-1}, \dots)$
+\pagebreak
+
+$M^{-1} = M_A^{-1} + M_B^{-1}$
+\pagebreak
+
+$M^{-1} = M_A^{-1} M_B^{-1}$
+\pagebreak
+
+\[
+\begin{bmatrix} F & B^T \\ B & -C \end{bmatrix}
+\begin{bmatrix} u \\ p \end{bmatrix}
+=
+\begin{bmatrix} f \\ g \end{bmatrix},
+\]
+\pagebreak
+
+$B$
+\pagebreak
+
+$B^T$
+\pagebreak
+
+$S = -(C + B F^{-1} B^T)$
+\pagebreak
+
+$S^{-1} \approx M_p^{-1} F_p A_p^{-1}$
+\pagebreak
+
+$A_p$
+\pagebreak
+
+$M_p$
+\pagebreak
+
+\[
+\begin{bmatrix} A_{00} & A_{01} \\ A_{10} & A_{11} \end{bmatrix},
+\]
+\pagebreak
+
+$A_{ii}p = A_{ii} + \gamma B_i^T W^{-1} B_i$
+\pagebreak
+
+$BQ_u^{-1}B^T$
+\pagebreak
+
+\end{document}
