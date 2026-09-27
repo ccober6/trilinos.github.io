@@ -15,6 +15,7 @@ var namespace_mue_lu =
     [ "KokkosTuningParams", "namespace_mue_lu_1_1_kokkos_tuning_params.html", [
       [ "MAX_VALID_PARAMS", "namespace_mue_lu_1_1_kokkos_tuning_params.html#ad4cd1a5fe5e82f9a2212232882f7db65", null ]
     ] ],
+    [ "LocalQR", "namespace_mue_lu_1_1_local_q_r.html", "namespace_mue_lu_1_1_local_q_r" ],
     [ "MatrixConstruction", "namespace_mue_lu_1_1_matrix_construction.html", "namespace_mue_lu_1_1_matrix_construction" ],
     [ "MemUtils", "namespace_mue_lu_1_1_mem_utils.html", [
       [ "PrintMemoryUsage", "namespace_mue_lu_1_1_mem_utils.html#a11c27664227aac4e4dd39acfb87bb5af", null ],
@@ -46,6 +47,10 @@ var namespace_mue_lu =
       [ "pingpong_basic", "namespace_mue_lu_1_1_perf_details.html#a8623a7faff5b641d9736c340b1e29b6b", null ],
       [ "halopong_basic", "namespace_mue_lu_1_1_perf_details.html#a9f7199a9d920505f140e33a68955d236", null ],
       [ "GB", "namespace_mue_lu_1_1_perf_details.html#a8fa975d7c249a2f08ebd276cbccbd5cc", null ]
+    ] ],
+    [ "StructuredRAPFactoryDetails", "namespace_mue_lu_1_1_structured_r_a_p_factory_details.html", [
+      [ "getLocalNodeIndices", "namespace_mue_lu_1_1_structured_r_a_p_factory_details.html#ac6a3fda17f060645b825e2bce25f8fa4", null ],
+      [ "resolveNeighbor", "namespace_mue_lu_1_1_structured_r_a_p_factory_details.html#af4b09167feb8744f2b9618c89346e4fc", null ]
     ] ],
     [ "AdaptiveSaMLParameterListInterpreter", "class_mue_lu_1_1_adaptive_sa_m_l_parameter_list_interpreter.html", "class_mue_lu_1_1_adaptive_sa_m_l_parameter_list_interpreter" ],
     [ "AdvSmootherPrototype", "class_mue_lu_1_1_adv_smoother_prototype.html", "class_mue_lu_1_1_adv_smoother_prototype" ],
@@ -153,10 +158,10 @@ var namespace_mue_lu =
     [ "Level", "class_mue_lu_1_1_level.html", "class_mue_lu_1_1_level" ],
     [ "LineDetectionFactory", "class_mue_lu_1_1_line_detection_factory.html", "class_mue_lu_1_1_line_detection_factory" ],
     [ "LocalAggregationAlgorithm", "class_mue_lu_1_1_local_aggregation_algorithm.html", null ],
+    [ "LocalFSAIFunctor", "class_mue_lu_1_1_local_f_s_a_i_functor.html", "class_mue_lu_1_1_local_f_s_a_i_functor" ],
     [ "LocalLexicographicIndexManager", "class_mue_lu_1_1_local_lexicographic_index_manager.html", "class_mue_lu_1_1_local_lexicographic_index_manager" ],
     [ "LocalOrdinalTransferFactory", "class_mue_lu_1_1_local_ordinal_transfer_factory.html", "class_mue_lu_1_1_local_ordinal_transfer_factory" ],
     [ "LocalPermutationStrategy", "class_mue_lu_1_1_local_permutation_strategy.html", "class_mue_lu_1_1_local_permutation_strategy" ],
-    [ "LocalSPAIFunctor", "class_mue_lu_1_1_local_s_p_a_i_functor.html", "class_mue_lu_1_1_local_s_p_a_i_functor" ],
     [ "LowPrecisionFactory", "class_mue_lu_1_1_low_precision_factory.html", "class_mue_lu_1_1_low_precision_factory" ],
     [ "LWGraph", "class_mue_lu_1_1_l_w_graph.html", "class_mue_lu_1_1_l_w_graph" ],
     [ "LWGraph_kokkos", "class_mue_lu_1_1_l_w_graph__kokkos.html", "class_mue_lu_1_1_l_w_graph__kokkos" ],
@@ -260,6 +265,7 @@ var namespace_mue_lu =
     [ "StructuredAggregationFactory", "class_mue_lu_1_1_structured_aggregation_factory.html", "class_mue_lu_1_1_structured_aggregation_factory" ],
     [ "StructuredAggregationFactory_kokkos", "class_mue_lu_1_1_structured_aggregation_factory__kokkos.html", "class_mue_lu_1_1_structured_aggregation_factory__kokkos" ],
     [ "StructuredLineDetectionFactory", "class_mue_lu_1_1_structured_line_detection_factory.html", "class_mue_lu_1_1_structured_line_detection_factory" ],
+    [ "StructuredRAPFactory", "class_mue_lu_1_1_structured_r_a_p_factory.html", "class_mue_lu_1_1_structured_r_a_p_factory" ],
     [ "SubBlockAFactory", "class_mue_lu_1_1_sub_block_a_factory.html", "class_mue_lu_1_1_sub_block_a_factory" ],
     [ "SubFactoryMonitor", "class_mue_lu_1_1_sub_factory_monitor.html", "class_mue_lu_1_1_sub_factory_monitor" ],
     [ "SubMonitor", "class_mue_lu_1_1_sub_monitor.html", "class_mue_lu_1_1_sub_monitor" ],
@@ -469,6 +475,7 @@ var namespace_mue_lu =
     [ "scaleD0", "namespace_mue_lu.html#ab9f058e1d6085b06cb22dbebefa4a250", null ],
     [ "pop", "namespace_mue_lu.html#aa766d8240582d236652f036749fe9311", null ],
     [ "pop", "namespace_mue_lu.html#a21c35d07273bc907052103927827cfd6", null ],
+    [ "pop", "namespace_mue_lu.html#a1905f731516991d022dac1f3ac44d6fb", null ],
     [ "compareTriplets", "namespace_mue_lu.html#a1e11f0991e08e92080b0db5b4578dbce", null ],
     [ "allocateBlockDiagonalMatrix", "namespace_mue_lu.html#a65747e85b97630bac3cd282cb894fcaf", null ],
     [ "CreateCmpPairs", "namespace_mue_lu.html#accdd1d44a7f5c2620b7ce81fb21bea6b", null ],
