@@ -449,9 +449,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>  <span class="comment">// Kokkos::parallel_for(sum.extent(0), *this);</span></div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>  <span class="keywordflow">if</span>(useScalars) </div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    Kokkos::parallel_for(Kokkos::RangePolicy&lt;PHX::Device,ScalarsTag&gt;(0,sum.extent(0)), *<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>    Kokkos::parallel_for(Kokkos::RangePolicy&lt;PHX::ExecutionSpace,ScalarsTag&gt;(0,sum.extent(0)), *<span class="keyword">this</span>);</div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    Kokkos::parallel_for(Kokkos::RangePolicy&lt;PHX::Device,NoScalarsTag&gt;(0,sum.extent(0)), *<span class="keyword">this</span>);</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    Kokkos::parallel_for(Kokkos::RangePolicy&lt;PHX::ExecutionSpace,NoScalarsTag&gt;(0,sum.extent(0)), *<span class="keyword">this</span>);</div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>}</div>
 </div>
 <div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
@@ -572,7 +572,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="anamespacepanzer_html"><div class="ttname"><a href="namespacepanzer.html">panzer</a></div><div class="ttdoc">Computes .</div><div class="ttdef"><b>Definition</b> <a href="_panzer___basis_values___evaluator__decl_8hpp_source.html#l00022">Panzer_BasisValues_Evaluator_decl.hpp:22</a></div></div>
 <div class="ttc" id="anamespacepanzer_html_aa000590e2ec788d6d926aa1f375812b8"><div class="ttname"><a href="namespacepanzer.html#aa000590e2ec788d6d926aa1f375812b8">panzer::buildStaticSumEvaluator</a></div><div class="ttdeci">Teuchos::RCP&lt; PHX::Evaluator&lt; TRAITS &gt; &gt; buildStaticSumEvaluator(const std::string &amp;sum_name, const std::vector&lt; std::string &gt; &amp;value_names, const Teuchos::RCP&lt; PHX::DataLayout &gt; &amp;data_layout)</div><div class="ttdef"><b>Definition</b> <a href="_panzer___sum__impl_8hpp_source.html#l00436">Panzer_Sum_impl.hpp:436</a></div></div>
 <div class="ttc" id="astructpanzer_1_1_sum_1_1_panzer_sum_tag_html"><div class="ttname"><a href="structpanzer_1_1_sum_1_1_panzer_sum_tag.html">panzer::Sum::PanzerSumTag</a></div><div class="ttdef"><b>Definition</b> <a href="_panzer___sum_8hpp_source.html#l00069">Panzer_Sum.hpp:69</a></div></div>
-<div class="ttc" id="astructpanzer_1_1_traits_1_1_s_d_html"><div class="ttname"><a href="structpanzer_1_1_traits_1_1_s_d.html">panzer::Traits::SD</a></div><div class="ttdef"><b>Definition</b> <a href="_panzer___traits_8hpp_source.html#l00091">Panzer_Traits.hpp:91</a></div></div>
+<div class="ttc" id="astructpanzer_1_1_traits_1_1_s_d_html"><div class="ttname"><a href="structpanzer_1_1_traits_1_1_s_d.html">panzer::Traits::SD</a></div><div class="ttdoc">User-defined data passed to PHX::Evaluator::postRegistrationSetup() during the one-time setup phase.</div><div class="ttdef"><b>Definition</b> <a href="_panzer___traits_8hpp_source.html#l00123">Panzer_Traits.hpp:123</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
