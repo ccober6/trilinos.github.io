@@ -1,125 +1,125 @@
 <map id="Zoltan2_VectorAdapter.hpp" name="Zoltan2_VectorAdapter.hpp">
-<area shape="rect" id="Node000001" title="Defines the VectorAdapter interface." alt="" coords="3326,5,3525,31"/>
-<area shape="rect" id="Node000002" href="$_mapping_8cpp.html" title=" " alt="" coords="2909,79,3014,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3336,35,3034,81,3014,84,3014,79,3033,76,3336,30"/>
-<area shape="rect" id="Node000003" href="$_zoltan2___alg_zoltan_callbacks_8hpp.html" title="callback functions for the Zoltan package (templated on Adapter)" alt="" coords="4467,159,4701,185"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3539,29,3650,48,3768,76,3796,89,3825,101,3918,122,3999,133,4070,138,4137,139,4277,138,4359,141,4455,149,4512,157,4511,162,4454,155,4358,147,4277,144,4137,145,4070,144,3998,139,3917,127,3823,107,3794,94,3766,81,3649,53,3538,35"/>
-<area shape="rect" id="Node000090" href="$_zoltan2___basic_vector_adapter_8hpp.html" title="Defines the BasicVectorAdapter class." alt="" coords="1150,159,1383,185"/>
-<area shape="poly" id="edge4_Node000001_Node000090" title=" " alt="" coords="3313,31,3195,49,3132,63,3072,81,3049,94,3026,107,2807,119,2335,138,1384,170,1383,164,2334,132,2806,114,3025,101,3047,90,3070,76,3131,58,3194,44,3312,26"/>
-<area shape="rect" id="Node000091" href="$_zoltan2___comm_graph_model_8hpp.html" title=" " alt="" coords="3020,240,3249,265"/>
-<area shape="poly" id="edge19_Node000001_Node000091" title=" " alt="" coords="3539,30,3621,49,3653,61,3674,77,3679,91,3674,105,3659,137,3642,160,3620,177,3589,194,3541,207,3455,220,3250,243,3249,238,3454,214,3540,201,3587,190,3617,173,3639,156,3655,134,3670,103,3674,91,3670,80,3651,66,3619,54,3538,35"/>
-<area shape="rect" id="Node000094" href="$_zoltan2___coordinate_model_8hpp.html" title="Defines the CoordinateModel classes." alt="" coords="2457,159,2676,185"/>
-<area shape="poly" id="edge22_Node000001_Node000094" title=" " alt="" coords="3352,36,3268,55,3180,81,3151,94,3122,107,3057,122,3002,132,2907,140,2811,144,2688,155,2638,162,2637,157,2688,149,2810,138,2906,135,3001,127,3056,117,3121,101,3149,90,3178,76,3267,50,3351,31"/>
-<area shape="rect" id="Node000100" href="$_zoltan2___graph_adapter_8hpp.html" title="Defines the GraphAdapter interface." alt="" coords="3191,79,3387,104"/>
-<area shape="poly" id="edge28_Node000001_Node000100" title=" " alt="" coords="3393,39,3313,81,3310,76,3390,34"/>
-<area shape="rect" id="Node000101" href="$_zoltan2___graph_model_8hpp.html" title="Defines the GraphModel interface." alt="" coords="4256,159,4443,185"/>
-<area shape="poly" id="edge59_Node000001_Node000101" title=" " alt="" coords="3513,30,3611,50,3717,76,3749,89,3781,101,3908,128,4037,146,4157,158,4256,165,4256,170,4156,163,4036,152,3907,133,3779,107,3747,94,3715,81,3610,55,3512,36"/>
-<area shape="rect" id="Node000130" href="$_zoltan2___hyper_graph_model_8hpp.html" title="Defines the HyperGraphModel interface." alt="" coords="3326,159,3551,185"/>
-<area shape="poly" id="edge60_Node000001_Node000130" title=" " alt="" coords="3430,44,3440,159,3435,159,3425,44"/>
-<area shape="rect" id="Node000135" href="$_zoltan2___matrix_adapter_8hpp.html" title="Defines the MatrixAdapter interface." alt="" coords="3462,79,3661,104"/>
-<area shape="poly" id="edge61_Node000001_Node000135" title=" " alt="" coords="3460,34,3540,76,3538,81,3458,39"/>
-<area shape="rect" id="Node000139" href="$_zoltan2___xpetra_multi_vector_adapter_8hpp.html" title="Defines the XpetraMultiVectorAdapter." alt="" coords="1926,152,2122,192"/>
-<area shape="poly" id="edge67_Node000001_Node000139" title=" " alt="" coords="3320,35,3223,54,3122,81,3097,94,3071,107,3014,116,2919,125,2654,143,2122,169,2122,164,2654,138,2918,120,3014,111,3070,101,3095,90,3120,76,3222,48,3320,30"/>
-<area shape="rect" id="Node000086" href="$mj__backwardcompat_8cpp.html" title="Generate a test to backward compatibility of MJ wrt adapters." alt="" coords="3837,79,4022,104"/>
-<area shape="poly" id="edge73_Node000001_Node000086" title=" " alt="" coords="3520,30,3849,76,3848,81,3520,35"/>
-<area shape="rect" id="Node000004" href="$_zoltan2___alg_zoltan_8hpp.html" title="interface to the Zoltan package" alt="" coords="6584,240,6755,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="4714,171,5040,175,5500,186,6031,205,6305,220,6572,237,6584,238,6584,244,6572,243,6304,225,6031,211,5500,191,5040,181,4714,177"/>
-<area shape="rect" id="Node000009" href="$_adapter_for_tests_8hpp.html" title="Generate Adapter for testing purposes." alt="" coords="2113,240,2268,265"/>
-<area shape="poly" id="edge5_Node000090_Node000009" title=" " alt="" coords="1397,179,1718,203,2102,237,2114,239,2113,244,2101,243,1717,208,1397,185"/>
-<area shape="rect" id="Node000018" href="$_basic_coordinate_input_8cpp.html" title=" " alt="" coords="777,240,965,265"/>
-<area shape="poly" id="edge6_Node000090_Node000018" title=" " alt="" coords="1196,190,929,243,928,237,1195,185"/>
-<area shape="rect" id="Node000021" href="$_basic_vector_adapter_8cpp.html" title=" " alt="" coords="989,240,1163,265"/>
-<area shape="poly" id="edge7_Node000090_Node000021" title=" " alt="" coords="1227,192,1105,242,1103,238,1225,187"/>
-<area shape="rect" id="Node000022" href="$_basic_vector_input_8cpp.html" title=" " alt="" coords="1187,240,1346,265"/>
-<area shape="poly" id="edge8_Node000090_Node000022" title=" " alt="" coords="1269,198,1269,240,1264,240,1264,198"/>
-<area shape="rect" id="Node000024" href="$_coordinate_model_8cpp.html" title=" " alt="" coords="1929,240,2089,265"/>
-<area shape="poly" id="edge9_Node000090_Node000024" title=" " alt="" coords="1397,183,1916,237,1929,239,1929,244,1916,243,1397,189"/>
-<area shape="rect" id="Node000027" href="$_graph_model_8cpp.html" title=" " alt="" coords="2868,240,2996,265"/>
-<area shape="poly" id="edge10_Node000090_Node000027" title=" " alt="" coords="1397,174,2005,196,2403,214,2806,237,2868,242,2867,248,2805,243,2403,219,2005,201,1397,180"/>
-<area shape="rect" id="Node000030" href="$_matrix_adapter_8cpp.html" title=" " alt="" coords="5,240,147,265"/>
-<area shape="poly" id="edge11_Node000090_Node000030" title=" " alt="" coords="1137,181,702,202,431,219,159,243,147,244,146,239,158,237,431,214,702,196,1137,175"/>
-<area shape="rect" id="Node000013" href="$_multi_jagged_test_8cpp.html" title=" " alt="" coords="1371,240,1523,265"/>
-<area shape="poly" id="edge12_Node000090_Node000013" title=" " alt="" coords="1306,188,1422,238,1419,242,1304,193"/>
-<area shape="rect" id="Node000054" href="$_zoltan2___mesh_coordinate_test_8hpp.html" title=" " alt="" coords="1547,240,1786,265"/>
-<area shape="poly" id="edge13_Node000090_Node000054" title=" " alt="" coords="1339,185,1609,237,1608,243,1338,190"/>
-<area shape="rect" id="Node000083" href="$fix4785_8cpp.html" title=" " alt="" coords="171,240,269,265"/>
-<area shape="poly" id="edge14_Node000090_Node000083" title=" " alt="" coords="1136,180,752,200,517,218,282,243,269,244,268,239,281,237,517,212,752,194,1136,175"/>
-<area shape="rect" id="Node000087" href="$mj__int__coordinates_8cpp.html" title="Generate a test to partition integer coordinates See definition of int_scalar_t." alt="" coords="293,240,467,265"/>
-<area shape="poly" id="edge15_Node000090_Node000087" title=" " alt="" coords="1137,186,836,210,479,243,467,244,467,239,478,237,835,205,1136,180"/>
-<area shape="rect" id="Node000070" href="$rcb_performance_8cpp.html" title="A test that can do large scale problems and time them." alt="" coords="491,240,643,265"/>
-<area shape="poly" id="edge16_Node000090_Node000070" title=" " alt="" coords="1143,189,655,243,643,244,643,239,654,237,1143,183"/>
-<area shape="rect" id="Node000073" href="$rcb_test_8cpp.html" title=" " alt="" coords="1810,240,1905,265"/>
-<area shape="poly" id="edge17_Node000090_Node000073" title=" " alt="" coords="1386,184,1580,207,1798,237,1810,239,1809,245,1797,243,1579,212,1386,189"/>
-<area shape="rect" id="Node000089" href="$rcb___c_8cpp.html" title="An example of partitioning coordinates with RCB." alt="" coords="667,240,752,265"/>
-<area shape="poly" id="edge18_Node000090_Node000089" title=" " alt="" coords="1151,189,969,212,764,243,753,245,752,240,764,237,968,207,1151,184"/>
-<area shape="rect" id="Node000092" href="$_zoltan2___alg_par_m_e_t_i_s_8hpp.html" title="Interface to the third&#45;party library ParMETIS." alt="" coords="4497,321,4685,346"/>
-<area shape="poly" id="edge20_Node000091_Node000092" title=" " alt="" coords="3263,263,3625,285,3976,303,4496,326,4496,331,3976,309,3624,291,3263,268"/>
-<area shape="rect" id="Node000093" href="$_zoltan2___alg_quotient_8hpp.html" title=" " alt="" coords="3043,321,3227,346"/>
-<area shape="poly" id="edge21_Node000091_Node000093" title=" " alt="" coords="3137,279,3137,320,3132,320,3132,279"/>
-<area shape="poly" id="edge23_Node000094_Node000024" title=" " alt="" coords="2473,189,2090,243,2089,237,2472,184"/>
-<area shape="rect" id="Node000095" href="$_zoltan2___alg_multi_jagged_8hpp.html" title="Contains the Multi&#45;jagged algorthm." alt="" coords="2393,240,2599,265"/>
-<area shape="poly" id="edge24_Node000094_Node000095" title=" " alt="" coords="2549,197,2508,242,2504,238,2545,193"/>
-<area shape="rect" id="Node000096" href="$_zoltan2___sphynx_8hpp.html" title=" " alt="" coords="2349,321,2504,346"/>
-<area shape="poly" id="edge27_Node000094_Node000096" title=" " alt="" coords="2460,191,2417,211,2399,224,2384,241,2379,251,2378,261,2385,282,2400,302,2415,319,2412,322,2396,306,2381,285,2373,262,2374,250,2379,239,2395,220,2414,206,2457,186"/>
-<area shape="rect" id="Node000099" href="$_zoltan2___alg_sarma_8hpp.html" title=" " alt="" coords="2623,240,2793,265"/>
-<area shape="poly" id="edge26_Node000094_Node000099" title=" " alt="" coords="2601,189,2688,237,2686,242,2598,194"/>
-<area shape="poly" id="edge25_Node000095_Node000096" title=" " alt="" coords="2479,277,2439,322,2435,319,2475,274"/>
-<area shape="poly" id="edge29_Node000100_Node000003" title=" " alt="" coords="3401,98,3449,101,3732,114,3953,119,4173,128,4455,149,4514,157,4514,162,4454,155,4172,133,3952,125,3732,119,3449,107,3401,104"/>
-<area shape="poly" id="edge30_Node000100_Node000091" title=" " alt="" coords="3291,118,3285,156,3277,176,3266,194,3248,211,3228,224,3185,242,3183,237,3225,219,3245,206,3262,190,3273,174,3280,155,3286,117"/>
-<area shape="poly" id="edge31_Node000100_Node000094" title=" " alt="" coords="3178,106,2688,155,2637,162,2636,157,2688,149,3178,101"/>
-<area shape="poly" id="edge32_Node000100_Node000101" title=" " alt="" coords="3401,98,4256,161,4255,166,3401,104"/>
-<area shape="poly" id="edge52_Node000100_Node000130" title=" " alt="" coords="3324,108,3418,157,3415,161,3322,113"/>
-<area shape="rect" id="Node000132" href="$_zoltan2___tpetra_row_graph_adapter_8hpp.html" title="Defines TpetraRowGraphAdapter class." alt="" coords="2985,159,3252,185"/>
-<area shape="poly" id="edge53_Node000100_Node000132" title=" " alt="" coords="3253,112,3145,162,3142,157,3251,107"/>
-<area shape="rect" id="Node000134" href="$_zoltan2___xpetra_crs_graph_adapter_8hpp.html" title="Defines XpetraCrsGraphAdapter class." alt="" coords="2701,159,2961,185"/>
-<area shape="poly" id="edge54_Node000100_Node000134" title=" " alt="" coords="3210,109,2898,162,2897,157,3209,104"/>
-<area shape="poly" id="edge33_Node000101_Node000027" title=" " alt="" coords="4242,178,4018,183,3711,195,3362,214,3008,243,2997,244,2996,239,3008,237,3362,209,3711,190,4017,178,4242,172"/>
-<area shape="poly" id="edge43_Node000101_Node000092" title=" " alt="" coords="4419,184,4455,189,4693,193,5147,196,5387,200,5597,208,5752,220,5800,228,5825,238,5831,253,5825,267,5807,275,5775,282,5668,295,5345,314,4976,326,4685,333,4685,328,4976,321,5345,309,5668,289,5774,277,5806,270,5821,263,5826,253,5821,242,5799,233,5751,225,5597,213,5386,206,5147,201,4693,198,4454,195,4418,190"/>
-<area shape="rect" id="Node000102" href="$_graph_model2nd_adjs_from_adjs_8cpp.html" title=" " alt="" coords="5386,240,5627,265"/>
-<area shape="poly" id="edge34_Node000101_Node000102" title=" " alt="" coords="4420,184,4455,189,4712,212,4913,220,5115,225,5373,237,5386,238,5385,244,5373,243,5115,230,4913,226,4712,218,4454,195,4419,190"/>
-<area shape="rect" id="Node000103" href="$_zoltan2___alg_a_m_d_8hpp.html" title="The AMD ordering algorithm uses SuiteSparse." alt="" coords="5651,240,5810,265"/>
-<area shape="poly" id="edge35_Node000101_Node000103" title=" " alt="" coords="4419,184,4455,189,4635,206,4787,215,5047,218,5307,220,5460,225,5640,237,5651,238,5651,244,5640,243,5460,230,5307,225,5047,224,4787,220,4634,211,4454,195,4418,190"/>
-<area shape="rect" id="Node000106" href="$_zoltan2___alg_hybrid2_g_l_8hpp.html" title=" " alt="" coords="5937,240,6133,265"/>
-<area shape="poly" id="edge36_Node000101_Node000106" title=" " alt="" coords="4419,184,4455,189,4677,209,4865,219,5031,223,5185,223,5506,222,5695,226,5917,237,5936,239,5936,244,5917,243,5695,231,5506,227,5185,228,5031,228,4865,225,4676,214,4454,195,4418,190"/>
-<area shape="rect" id="Node000107" href="$_zoltan2___alg_hybrid_d1-2_g_l_8hpp.html" title=" " alt="" coords="5886,313,6047,353"/>
-<area shape="poly" id="edge38_Node000101_Node000107" title=" " alt="" coords="4419,184,4455,189,4553,194,4716,196,5152,200,5381,204,5587,210,5749,221,5807,229,5845,237,5877,252,5906,272,5951,311,5948,315,5903,276,5874,257,5843,243,5806,234,5749,227,5587,216,5381,209,5152,205,4716,202,4552,199,4454,195,4418,190"/>
-<area shape="rect" id="Node000112" href="$_zoltan2___alg_hybrid_d1_8hpp.html" title="A hybrid MPI+Kokkos version of the framework proposed by Gebremedhin and Manne." alt="" coords="6157,240,6347,265"/>
-<area shape="poly" id="edge39_Node000101_Node000112" title=" " alt="" coords="4419,184,4455,189,4711,211,4929,222,5120,225,5299,223,5670,219,5888,224,6146,237,6157,238,6157,244,6145,243,5888,229,5670,225,5299,228,5120,230,4929,227,4711,217,4454,195,4418,190"/>
-<area shape="rect" id="Node000113" href="$_zoltan2___alg_hybrid_d2_8hpp.html" title=" " alt="" coords="6371,240,6560,265"/>
-<area shape="poly" id="edge40_Node000101_Node000113" title=" " alt="" coords="4418,184,4455,189,4744,213,4989,225,5205,227,5406,224,5823,218,6069,223,6359,237,6371,238,6370,244,6359,243,6069,228,5823,224,5406,230,5205,232,4989,230,4743,219,4454,195,4417,190"/>
-<area shape="rect" id="Node000114" href="$_zoltan2___alg_hybrid_p_d2_8hpp.html" title=" " alt="" coords="3273,240,3471,265"/>
-<area shape="poly" id="edge41_Node000101_Node000114" title=" " alt="" coords="4242,183,3904,208,3483,243,3471,244,3471,238,3482,237,3903,203,4242,178"/>
-<area shape="rect" id="Node000115" href="$_zoltan2___alg_metis_8hpp.html" title="The ND ordering algorithm uses Metis." alt="" coords="3495,240,3659,265"/>
-<area shape="poly" id="edge42_Node000101_Node000115" title=" " alt="" coords="4242,186,3672,243,3660,244,3659,239,3672,237,4242,181"/>
-<area shape="rect" id="Node000116" href="$_zoltan2___alg_pu_l_p_8hpp.html" title="interface to the PuLP third&#45;party library" alt="" coords="3684,240,3841,265"/>
-<area shape="poly" id="edge44_Node000101_Node000116" title=" " alt="" coords="4251,189,3842,243,3841,238,4250,184"/>
-<area shape="rect" id="Node000117" href="$_zoltan2___alg_r_c_m_8hpp.html" title="RCM ordering of a graph (serial, local graph only)" alt="" coords="3866,240,4025,265"/>
-<area shape="poly" id="edge45_Node000101_Node000117" title=" " alt="" coords="4278,190,4005,243,4004,237,4277,185"/>
-<area shape="rect" id="Node000118" href="$_zoltan2___alg_scotch_8hpp.html" title="interface to the Scotch third&#45;party library" alt="" coords="4049,240,4220,265"/>
-<area shape="poly" id="edge46_Node000101_Node000118" title=" " alt="" coords="4306,192,4167,242,4165,237,4304,187"/>
-<area shape="rect" id="Node000119" href="$_zoltan2___alg_serial_greedy_8hpp.html" title="Serial greedy first&#45;fit graph coloring (local graph only)" alt="" coords="4244,240,4455,265"/>
-<area shape="poly" id="edge47_Node000101_Node000119" title=" " alt="" coords="4352,198,4352,240,4347,240,4347,198"/>
-<area shape="rect" id="Node000120" href="$_zoltan2___alg_sorted_degree_8hpp.html" title="Order vertices by sorted (increasing) degree." alt="" coords="4479,240,4697,265"/>
-<area shape="poly" id="edge48_Node000101_Node000120" title=" " alt="" coords="4398,186,4554,237,4552,243,4396,191"/>
-<area shape="rect" id="Node000121" href="$_zoltan2___alg_spectral_8hpp.html" title="Spectral ordering of a graph (local or global)." alt="" coords="4721,240,4903,265"/>
-<area shape="poly" id="edge49_Node000101_Node000121" title=" " alt="" coords="4427,184,4455,189,4743,237,4742,243,4454,195,4426,190"/>
-<area shape="rect" id="Node000109" href="$_zoltan2___coloring_problem_8hpp.html" title="Defines the ColoringProblem class." alt="" coords="4927,240,5142,265"/>
-<area shape="poly" id="edge50_Node000101_Node000109" title=" " alt="" coords="4423,184,4455,189,4927,238,4927,243,4454,195,4422,190"/>
-<area shape="rect" id="Node000122" href="$_zoltan2___graph_metrics_8hpp.html" title=" " alt="" coords="5167,240,5361,265"/>
-<area shape="poly" id="edge51_Node000101_Node000122" title=" " alt="" coords="4421,184,4455,189,4651,209,4804,218,4958,224,5155,237,5166,238,5166,244,5154,243,4958,229,4804,223,4651,214,4454,195,4420,190"/>
-<area shape="poly" id="edge37_Node000106_Node000107" title=" " alt="" coords="6018,278,5985,315,5981,311,6014,274"/>
-<area shape="poly" id="edge55_Node000134_Node000009" title=" " alt="" coords="2732,189,2688,195,2269,245,2268,240,2688,189,2731,184"/>
-<area shape="poly" id="edge56_Node000134_Node000027" title=" " alt="" coords="2858,191,2919,238,2915,242,2855,195"/>
-<area shape="poly" id="edge57_Node000134_Node000091" title=" " alt="" coords="2889,185,3091,237,3090,243,2887,191"/>
-<area shape="poly" id="edge58_Node000134_Node000096" title=" " alt="" coords="2833,199,2827,234,2819,252,2807,267,2785,281,2755,293,2676,311,2587,324,2504,331,2504,325,2586,318,2675,306,2753,288,2783,277,2804,263,2815,249,2822,233,2828,198"/>
-<area shape="poly" id="edge62_Node000135_Node000003" title=" " alt="" coords="3675,96,4086,121,4455,149,4513,157,4512,162,4454,155,4086,127,3675,102"/>
-<area shape="poly" id="edge63_Node000135_Node000091" title=" " alt="" coords="3573,117,3578,155,3575,176,3564,194,3526,205,3445,218,3242,243,3242,237,3444,213,3525,200,3561,190,3570,174,3573,155,3567,117"/>
-<area shape="poly" id="edge64_Node000135_Node000094" title=" " alt="" coords="3449,103,3399,107,3043,126,2888,136,2688,155,2634,162,2634,157,2688,149,2887,130,3043,120,3399,101,3448,98"/>
-<area shape="poly" id="edge65_Node000135_Node000101" title=" " alt="" coords="3674,101,4256,159,4255,164,3674,106"/>
-<area shape="poly" id="edge66_Node000135_Node000130" title=" " alt="" coords="3533,114,3458,161,3455,157,3530,109"/>
-<area shape="poly" id="edge68_Node000139_Node000009" title=" " alt="" coords="2077,195,2167,237,2165,242,2075,200"/>
-<area shape="poly" id="edge69_Node000139_Node000013" title=" " alt="" coords="1912,191,1523,244,1522,238,1912,186"/>
-<area shape="poly" id="edge70_Node000139_Node000054" title=" " alt="" coords="1926,197,1719,243,1718,237,1925,192"/>
-<area shape="poly" id="edge72_Node000139_Node000073" title=" " alt="" coords="1973,200,1883,242,1881,237,1971,195"/>
-<area shape="poly" id="edge71_Node000139_Node000096" title=" " alt="" coords="2136,192,2209,211,2281,238,2357,279,2413,318,2410,323,2354,284,2279,242,2207,216,2135,197"/>
+<area shape="rect" id="Node000001" title="Defines the VectorAdapter interface." alt="" coords="2709,5,2906,33"/>
+<area shape="rect" id="Node000002" href="$_mapping_8cpp.html" title=" " alt="" coords="1747,90,1852,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2691,20,2531,25,2325,34,2098,52,1983,66,1871,84,1839,91,1837,86,1870,78,1982,61,2097,47,2325,28,2531,19,2696,19"/>
+<area shape="rect" id="Node000003" href="$_zoltan2___alg_zoltan_callbacks_8hpp.html" title="callback functions for the Zoltan package (templated on Adapter)" alt="" coords="4294,182,4526,210"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="2922,23,3036,30,3159,41,3271,57,3316,67,3350,79,3366,90,3376,102,3385,114,3401,123,3438,136,3482,146,3587,159,3707,165,3836,167,4087,165,4196,166,4282,171,4341,182,4336,181,4282,176,4196,171,4087,170,3836,172,3707,171,3586,164,3481,151,3437,141,3398,128,3382,118,3372,105,3363,93,3348,83,3314,72,3270,62,3158,46,3035,35,2922,28"/>
+<area shape="rect" id="Node000090" href="$_zoltan2___basic_vector_adapter_8hpp.html" title="Defines the BasicVectorAdapter class." alt="" coords="1142,182,1374,210"/>
+<area shape="poly" id="edge4_Node000001_Node000090" title=" " alt="" coords="2690,24,2485,34,2242,46,2028,62,1952,72,1909,83,1895,93,1888,105,1879,117,1865,128,1825,142,1774,155,1645,173,1503,186,1375,193,1374,188,1503,181,1644,168,1773,149,1824,137,1862,123,1875,113,1883,102,1892,89,1906,79,1951,67,2027,57,2241,40,2484,28,2696,23"/>
+<area shape="rect" id="Node000091" href="$_zoltan2___comm_graph_model_8hpp.html" title=" " alt="" coords="2329,266,2558,294"/>
+<area shape="poly" id="edge19_Node000001_Node000091" title=" " alt="" coords="2691,25,2515,41,2414,52,2311,67,2214,86,2129,110,2061,140,2036,157,2018,175,2011,186,2009,196,2011,206,2017,216,2052,226,2130,239,2332,266,2326,266,2130,244,2051,231,2014,220,2006,208,2003,196,2006,184,2013,172,2033,153,2059,135,2127,105,2213,81,2310,62,2413,46,2515,35,2696,25"/>
+<area shape="rect" id="Node000094" href="$_zoltan2___coordinate_model_8hpp.html" title="Defines the CoordinateModel classes." alt="" coords="2951,182,3168,210"/>
+<area shape="poly" id="edge22_Node000001_Node000094" title=" " alt="" coords="2922,26,2980,45,3007,60,3031,79,3048,104,3057,132,3062,183,3058,180,3052,134,3043,106,3027,83,3004,64,2978,50,2921,31"/>
+<area shape="rect" id="Node000100" href="$_zoltan2___graph_adapter_8hpp.html" title="Defines the GraphAdapter interface." alt="" coords="2599,90,2794,117"/>
+<area shape="poly" id="edge28_Node000001_Node000100" title=" " alt="" coords="2780,42,2716,91,2714,86,2775,44"/>
+<area shape="rect" id="Node000101" href="$_zoltan2___graph_model_8hpp.html" title="Defines the GraphModel interface." alt="" coords="4084,182,4270,210"/>
+<area shape="poly" id="edge58_Node000001_Node000101" title=" " alt="" coords="2907,34,2984,52,3061,79,3082,90,3096,102,3110,114,3131,123,3213,142,3322,158,3451,169,3590,178,3866,188,4086,194,4081,194,3866,194,3590,184,3450,175,3322,163,3212,148,3129,128,3108,118,3093,107,3079,95,3058,83,2982,57,2907,39"/>
+<area shape="rect" id="Node000130" href="$_zoltan2___hyper_graph_model_8hpp.html" title="Defines the HyperGraphModel interface." alt="" coords="2027,182,2252,210"/>
+<area shape="poly" id="edge59_Node000001_Node000130" title=" " alt="" coords="2745,37,2190,184,2189,179,2740,38"/>
+<area shape="rect" id="Node000135" href="$_zoltan2___matrix_adapter_8hpp.html" title="Defines the MatrixAdapter interface." alt="" coords="2819,90,3017,117"/>
+<area shape="poly" id="edge60_Node000001_Node000135" title=" " alt="" coords="2838,40,2903,90,2898,88,2837,45"/>
+<area shape="rect" id="Node000139" href="$_zoltan2___tpetra_multi_vector_adapter_8hpp.html" title=" " alt="" coords="3142,81,3337,126"/>
+<area shape="poly" id="edge66_Node000001_Node000139" title=" " alt="" coords="2892,34,3144,84,3139,83,2892,39"/>
+<area shape="rect" id="Node000140" href="$_zoltan2___xpetra_multi_vector_adapter_8hpp.html" title="Defines the XpetraMultiVectorAdapter." alt="" coords="1752,174,1948,218"/>
+<area shape="poly" id="edge67_Node000001_Node000140" title=" " alt="" coords="2691,20,2515,24,2306,32,2204,40,2110,51,2031,65,1973,83,1940,102,1911,127,1867,176,1864,171,1907,123,1937,98,1970,79,2030,60,2109,45,2203,34,2305,27,2515,18,2696,19"/>
+<area shape="rect" id="Node000086" href="$mj__backwardcompat_8cpp.html" title="Generate a test to backward compatibility of MJ wrt adapters." alt="" coords="3411,90,3596,117"/>
+<area shape="poly" id="edge73_Node000001_Node000086" title=" " alt="" coords="2922,27,3141,47,3393,78,3442,89,3437,89,3392,84,3140,53,2922,32"/>
+<area shape="rect" id="Node000004" href="$_zoltan2___alg_zoltan_8hpp.html" title="interface to the Zoltan package" alt="" coords="6331,266,6500,294"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="4542,196,4856,200,5294,211,5799,232,6312,264,6333,268,6328,268,6311,269,5798,237,5294,217,4856,206,4542,201"/>
+<area shape="rect" id="Node000009" href="$_adapter_for_tests_8hpp.html" title="Generate Adapter for testing purposes." alt="" coords="1918,266,2071,294"/>
+<area shape="poly" id="edge5_Node000090_Node000009" title=" " alt="" coords="1390,207,1905,264,1920,268,1915,268,1905,269,1390,213"/>
+<area shape="rect" id="Node000018" href="$_basic_coordinate_input_8cpp.html" title=" " alt="" coords="770,266,957,294"/>
+<area shape="poly" id="edge6_Node000090_Node000018" title=" " alt="" coords="1183,213,927,268,926,263,1177,214"/>
+<area shape="rect" id="Node000021" href="$_basic_vector_adapter_8cpp.html" title=" " alt="" coords="982,266,1156,294"/>
+<area shape="poly" id="edge7_Node000090_Node000021" title=" " alt="" coords="1217,216,1100,268,1098,263,1211,217"/>
+<area shape="rect" id="Node000022" href="$_basic_vector_input_8cpp.html" title=" " alt="" coords="1180,266,1337,294"/>
+<area shape="poly" id="edge8_Node000090_Node000022" title=" " alt="" coords="1260,224,1260,268,1256,264,1256,228"/>
+<area shape="rect" id="Node000024" href="$_coordinate_model_8cpp.html" title=" " alt="" coords="2146,266,2306,294"/>
+<area shape="poly" id="edge9_Node000090_Node000024" title=" " alt="" coords="1390,205,2084,264,2149,272,2144,272,2083,269,1390,211"/>
+<area shape="rect" id="Node000027" href="$_graph_model_8cpp.html" title=" " alt="" coords="2581,266,2708,294"/>
+<area shape="poly" id="edge10_Node000090_Node000027" title=" " alt="" coords="1390,201,2053,233,2381,251,2570,264,2583,268,2578,267,2570,269,2381,256,2053,238,1390,206"/>
+<area shape="rect" id="Node000030" href="$_matrix_adapter_8cpp.html" title=" " alt="" coords="5,266,146,294"/>
+<area shape="poly" id="edge11_Node000090_Node000030" title=" " alt="" coords="1124,203,696,226,428,244,158,269,147,270,145,265,158,264,427,239,695,220,1129,201"/>
+<area shape="rect" id="Node000013" href="$_multi_jagged_test_8cpp.html" title=" " alt="" coords="1361,266,1512,294"/>
+<area shape="poly" id="edge12_Node000090_Node000013" title=" " alt="" coords="1301,214,1411,266,1406,265,1300,219"/>
+<area shape="rect" id="Node000054" href="$_zoltan2___mesh_coordinate_test_8hpp.html" title=" " alt="" coords="1536,266,1775,294"/>
+<area shape="poly" id="edge13_Node000090_Node000054" title=" " alt="" coords="1337,211,1594,266,1589,266,1337,216"/>
+<area shape="rect" id="Node000083" href="$fix4785_8cpp.html" title=" " alt="" coords="170,266,266,294"/>
+<area shape="poly" id="edge14_Node000090_Node000083" title=" " alt="" coords="1124,202,745,223,512,242,279,269,267,271,266,266,278,264,511,237,745,218,1129,200"/>
+<area shape="rect" id="Node000087" href="$mj__int__coordinates_8cpp.html" title="Generate a test to partition integer coordinates See definition of int_scalar_t." alt="" coords="291,266,463,294"/>
+<area shape="poly" id="edge15_Node000090_Node000087" title=" " alt="" coords="1124,208,828,235,474,269,464,270,463,265,474,264,828,229,1129,207"/>
+<area shape="rect" id="Node000070" href="$rcb_performance_8cpp.html" title="A test that can do large scale problems and time them." alt="" coords="486,266,638,294"/>
+<area shape="poly" id="edge16_Node000090_Node000070" title=" " alt="" coords="1124,212,649,269,639,270,638,265,649,264,1129,210"/>
+<area shape="rect" id="Node000073" href="$rcb_test_8cpp.html" title=" " alt="" coords="1799,266,1893,294"/>
+<area shape="poly" id="edge17_Node000090_Node000073" title=" " alt="" coords="1390,209,1578,232,1787,264,1801,269,1796,268,1786,269,1577,238,1390,214"/>
+<area shape="rect" id="Node000089" href="$rcb___c_8cpp.html" title="An example of partitioning coordinates with RCB." alt="" coords="661,266,746,294"/>
+<area shape="poly" id="edge18_Node000090_Node000089" title=" " alt="" coords="1124,213,951,238,759,269,746,271,745,266,758,264,951,233,1129,212"/>
+<area shape="rect" id="Node000092" href="$_zoltan2___alg_par_m_e_t_i_s_8hpp.html" title="Interface to the third&#45;party library ParMETIS." alt="" coords="3012,350,3200,378"/>
+<area shape="poly" id="edge20_Node000091_Node000092" title=" " alt="" coords="2565,294,3015,351,3009,351,2565,299"/>
+<area shape="rect" id="Node000093" href="$_zoltan2___alg_quotient_8hpp.html" title=" " alt="" coords="2352,350,2535,378"/>
+<area shape="poly" id="edge21_Node000091_Node000093" title=" " alt="" coords="2445,308,2445,352,2442,348,2442,312"/>
+<area shape="poly" id="edge23_Node000094_Node000024" title=" " alt="" coords="2945,212,2888,221,2727,236,2602,244,2477,253,2317,269,2306,270,2306,265,2317,264,2477,248,2602,239,2727,230,2887,216,2939,212"/>
+<area shape="rect" id="Node000095" href="$_zoltan2___alg_multi_jagged_8hpp.html" title="Contains the Multi&#45;jagged algorthm." alt="" coords="2835,266,3039,294"/>
+<area shape="poly" id="edge24_Node000094_Node000095" title=" " alt="" coords="3030,218,2957,268,2956,263,3025,219"/>
+<area shape="rect" id="Node000096" href="$_zoltan2___sphynx_8hpp.html" title=" " alt="" coords="2694,350,2849,378"/>
+<area shape="poly" id="edge27_Node000094_Node000096" title=" " alt="" coords="2981,213,2888,240,2850,254,2824,268,2806,288,2793,310,2776,352,2773,348,2788,308,2802,284,2821,264,2847,249,2886,235,2976,214"/>
+<area shape="rect" id="Node000099" href="$_zoltan2___alg_sarma_8hpp.html" title=" " alt="" coords="3063,266,3232,294"/>
+<area shape="poly" id="edge26_Node000094_Node000099" title=" " alt="" coords="3086,218,3136,267,3131,265,3084,223"/>
+<area shape="poly" id="edge25_Node000095_Node000096" title=" " alt="" coords="2899,301,2799,353,2797,347,2894,302"/>
+<area shape="poly" id="edge29_Node000100_Node000003" title=" " alt="" coords="2772,118,2808,123,3031,143,3221,152,3388,153,3544,150,3701,147,3868,147,4058,154,4282,171,4343,182,4338,181,4282,176,4058,159,3868,152,3701,152,3545,155,3388,158,3221,157,3031,148,2807,128,2772,123"/>
+<area shape="poly" id="edge30_Node000100_Node000091" title=" " alt="" coords="2581,110,2505,119,2425,132,2359,150,2334,162,2318,175,2311,186,2309,195,2318,217,2331,233,2347,245,2386,266,2381,265,2344,250,2327,236,2313,220,2304,196,2306,184,2313,172,2331,157,2357,145,2424,126,2504,114,2586,109"/>
+<area shape="poly" id="edge31_Node000100_Node000094" title=" " alt="" coords="2765,119,3009,182,3004,181,2764,124"/>
+<area shape="poly" id="edge32_Node000100_Node000101" title=" " alt="" coords="2773,118,2808,123,2991,142,3177,158,3542,178,3858,188,4087,194,4081,194,3858,194,3542,183,3177,163,2990,148,2807,128,2773,123"/>
+<area shape="poly" id="edge51_Node000100_Node000130" title=" " alt="" coords="2604,120,2221,184,2220,179,2598,120"/>
+<area shape="rect" id="Node000132" href="$_zoltan2___tpetra_row_graph_adapter_8hpp.html" title="Defines TpetraRowGraphAdapter class." alt="" coords="2327,182,2592,210"/>
+<area shape="poly" id="edge52_Node000100_Node000132" title=" " alt="" coords="2651,123,2495,184,2493,179,2646,124"/>
+<area shape="rect" id="Node000134" href="$_zoltan2___xpetra_crs_graph_adapter_8hpp.html" title="Defines XpetraCrsGraphAdapter class." alt="" coords="2616,182,2876,210"/>
+<area shape="poly" id="edge53_Node000100_Node000134" title=" " alt="" coords="2712,129,2741,183,2737,181,2710,133"/>
+<area shape="poly" id="edge33_Node000101_Node000027" title=" " alt="" coords="4071,202,3533,230,2822,269,2709,277,2709,271,2822,264,3533,225,4066,202"/>
+<area shape="poly" id="edge43_Node000101_Node000092" title=" " alt="" coords="4066,200,3883,210,3660,222,3448,242,3362,254,3296,269,3271,281,3246,296,3134,353,3132,347,3244,292,3268,276,3295,264,3361,249,3447,236,3659,217,3883,204,4072,200"/>
+<area shape="rect" id="Node000102" href="$_graph_model2nd_adjs_from_adjs_8cpp.html" title=" " alt="" coords="4419,266,4660,294"/>
+<area shape="poly" id="edge34_Node000101_Node000102" title=" " alt="" coords="4250,211,4484,266,4479,266,4250,216"/>
+<area shape="rect" id="Node000103" href="$_zoltan2___alg_a_m_d_8hpp.html" title="The AMD ordering algorithm uses SuiteSparse." alt="" coords="4684,266,4843,294"/>
+<area shape="poly" id="edge35_Node000101_Node000103" title=" " alt="" coords="4254,211,4283,216,4477,242,4672,264,4686,268,4681,268,4671,269,4476,247,4282,221,4253,216"/>
+<area shape="rect" id="Node000106" href="$_zoltan2___alg_hybrid2_g_l_8hpp.html" title=" " alt="" coords="6060,266,6256,294"/>
+<area shape="poly" id="edge36_Node000101_Node000106" title=" " alt="" coords="4249,211,4282,216,4550,241,4777,252,4978,255,5164,252,5351,247,5552,245,5780,249,6049,264,6063,267,6057,267,6049,269,5780,255,5552,251,5351,253,5164,257,4978,260,4777,258,4550,246,4282,221,4248,216"/>
+<area shape="rect" id="Node000107" href="$_zoltan2___alg_hybrid_d1-2_g_l_8hpp.html" title=" " alt="" coords="6145,342,6305,387"/>
+<area shape="poly" id="edge38_Node000101_Node000107" title=" " alt="" coords="4249,211,4282,216,4610,220,5281,227,5949,240,6174,251,6240,257,6269,264,6278,284,6275,305,6263,325,6248,344,6245,339,6259,322,6270,303,6273,284,6266,268,6239,262,6173,256,5949,246,5281,232,4610,226,4282,221,4248,216"/>
+<area shape="rect" id="Node000112" href="$_zoltan2___alg_hybrid_d1_8hpp.html" title="A hybrid MPI+Kokkos version of the framework proposed by Gebremedhin and Manne." alt="" coords="4867,266,5055,294"/>
+<area shape="poly" id="edge39_Node000101_Node000112" title=" " alt="" coords="4251,211,4283,216,4443,235,4568,243,4693,250,4854,264,4869,268,4863,267,4854,269,4693,256,4568,249,4442,240,4282,221,4251,216"/>
+<area shape="rect" id="Node000113" href="$_zoltan2___alg_hybrid_d2_8hpp.html" title=" " alt="" coords="5079,266,5267,294"/>
+<area shape="poly" id="edge40_Node000101_Node000113" title=" " alt="" coords="4250,211,4283,216,4502,238,4674,245,4847,249,5068,264,5081,267,5075,267,5067,269,4847,255,4674,250,4502,243,4282,221,4250,216"/>
+<area shape="rect" id="Node000114" href="$_zoltan2___alg_hybrid_p_d2_8hpp.html" title=" " alt="" coords="5291,266,5487,294"/>
+<area shape="poly" id="edge41_Node000101_Node000114" title=" " alt="" coords="4249,211,4283,216,4434,232,4562,241,4780,247,4999,249,5128,254,5280,264,5293,267,5288,267,5279,269,5128,259,4999,254,4780,252,4561,246,4433,237,4282,221,4249,216"/>
+<area shape="rect" id="Node000115" href="$_zoltan2___alg_metis_8hpp.html" title="The ND ordering algorithm uses Metis." alt="" coords="5511,266,5674,294"/>
+<area shape="poly" id="edge42_Node000101_Node000115" title=" " alt="" coords="4249,211,4283,216,4467,234,4623,244,4761,247,4890,246,5157,245,5315,251,5500,264,5514,268,5508,267,5499,269,5314,256,5157,251,4890,251,4761,252,4623,249,4467,239,4282,221,4249,216"/>
+<area shape="rect" id="Node000116" href="$_zoltan2___alg_pu_l_p_8hpp.html" title="interface to the PuLP third&#45;party library" alt="" coords="5699,266,5855,294"/>
+<area shape="poly" id="edge44_Node000101_Node000116" title=" " alt="" coords="4249,211,4282,216,4495,236,4676,246,4835,248,4983,247,5292,244,5473,249,5686,264,5701,268,5696,267,5686,269,5473,255,5292,249,4983,252,4835,254,4676,251,4495,242,4282,221,4249,216"/>
+<area shape="rect" id="Node000117" href="$_zoltan2___alg_r_c_m_8hpp.html" title="RCM ordering of a graph (serial, local graph only)." alt="" coords="5880,266,6037,294"/>
+<area shape="poly" id="edge45_Node000101_Node000117" title=" " alt="" coords="4249,211,4282,216,4523,238,4727,249,4906,250,5074,248,5242,244,5422,243,5627,248,5868,264,5882,268,5876,267,5867,269,5626,253,5422,248,5242,249,5074,253,4906,256,4726,254,4522,244,4282,221,4248,216"/>
+<area shape="rect" id="Node000118" href="$_zoltan2___alg_scotch_8hpp.html" title="interface to the Scotch third&#45;party library" alt="" coords="3308,266,3478,294"/>
+<area shape="poly" id="edge46_Node000101_Node000118" title=" " alt="" coords="4071,207,3490,269,3478,270,3478,265,3490,264,4066,207"/>
+<area shape="rect" id="Node000119" href="$_zoltan2___alg_serial_greedy_8hpp.html" title="Serial greedy first&#45;fit graph coloring (local graph only)." alt="" coords="3502,266,3711,294"/>
+<area shape="poly" id="edge47_Node000101_Node000119" title=" " alt="" coords="4073,212,3698,268,3698,263,4068,213"/>
+<area shape="rect" id="Node000120" href="$_zoltan2___alg_sorted_degree_8hpp.html" title="Order vertices by sorted (increasing) degree." alt="" coords="3735,266,3952,294"/>
+<area shape="poly" id="edge48_Node000101_Node000120" title=" " alt="" coords="4111,214,3897,268,3897,263,4106,214"/>
+<area shape="rect" id="Node000121" href="$_zoltan2___alg_spectral_8hpp.html" title="Spectral ordering of a graph (local or global)." alt="" coords="3976,266,4156,294"/>
+<area shape="poly" id="edge49_Node000101_Node000121" title=" " alt="" coords="4149,219,4085,268,4083,263,4144,220"/>
+<area shape="rect" id="Node000109" href="$_zoltan2___coloring_problem_8hpp.html" title="Defines the ColoringProblem class." alt="" coords="4180,266,4395,294"/>
+<area shape="poly" id="edge50_Node000101_Node000109" title=" " alt="" coords="4208,217,4272,267,4267,265,4206,222"/>
+<area shape="poly" id="edge37_Node000106_Node000107" title=" " alt="" coords="6180,304,6210,342,6205,340,6177,309"/>
+<area shape="poly" id="edge54_Node000134_Node000009" title=" " alt="" coords="2650,212,2605,221,2071,274,2071,269,2605,216,2645,213"/>
+<area shape="poly" id="edge55_Node000134_Node000027" title=" " alt="" coords="2721,219,2662,269,2660,264,2716,221"/>
+<area shape="poly" id="edge56_Node000134_Node000091" title=" " alt="" coords="2686,214,2492,268,2492,263,2680,215"/>
+<area shape="poly" id="edge57_Node000134_Node000096" title=" " alt="" coords="2752,223,2772,352,2767,348,2749,227"/>
+<area shape="poly" id="edge61_Node000135_Node000003" title=" " alt="" coords="3033,115,3130,123,3306,133,3454,138,3707,141,3959,147,4107,155,4282,171,4342,182,4337,181,4282,176,4107,161,3959,152,3707,146,3454,144,3305,139,3130,128,3033,120"/>
+<area shape="poly" id="edge62_Node000135_Node000091" title=" " alt="" coords="2921,131,2914,178,2905,201,2889,221,2849,231,2766,244,2558,269,2558,264,2766,238,2848,226,2886,216,2900,198,2909,177,2917,135"/>
+<area shape="poly" id="edge63_Node000135_Node000094" title=" " alt="" coords="2952,123,3041,182,3036,181,2950,128"/>
+<area shape="poly" id="edge64_Node000135_Node000101" title=" " alt="" coords="3030,117,3086,123,3371,147,3653,165,4086,191,4081,191,3652,171,3371,152,3086,128,3030,122"/>
+<area shape="poly" id="edge65_Node000135_Node000130" title=" " alt="" coords="2842,120,2807,128,2669,146,2561,155,2316,176,2247,184,2246,179,2315,171,2561,150,2668,140,2806,123,2836,121"/>
+<area shape="poly" id="edge68_Node000140_Node000009" title=" " alt="" coords="1902,224,1974,266,1968,265,1901,229"/>
+<area shape="poly" id="edge69_Node000140_Node000013" title=" " alt="" coords="1740,219,1504,268,1503,263,1735,220"/>
+<area shape="poly" id="edge70_Node000140_Node000054" title=" " alt="" coords="1787,224,1687,268,1686,263,1782,225"/>
+<area shape="poly" id="edge72_Node000140_Node000073" title=" " alt="" coords="1850,232,1849,268,1845,264,1846,236"/>
+<area shape="poly" id="edge71_Node000140_Node000096" title=" " alt="" coords="1954,220,2019,240,2085,264,2110,279,2135,291,2363,319,2697,356,2691,355,2362,324,2133,297,2107,283,2082,269,2018,245,1953,225"/>
 </map>
