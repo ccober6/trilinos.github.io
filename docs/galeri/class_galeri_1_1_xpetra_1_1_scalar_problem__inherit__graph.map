@@ -1,23 +1,29 @@
 <map id="Galeri::Xpetra::ScalarProblem&lt; Map, Matrix, MultiVector &gt;" name="Galeri::Xpetra::ScalarProblem&lt; Map, Matrix, MultiVector &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="472,333,687,373"/>
-<area shape="rect" id="Node000004" href="$class_galeri_1_1_xpetra_1_1_anisotropic_diffusion2_d_problem.html" title=" " alt="" coords="763,5,973,75"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="589,319,609,268,639,205,680,141,705,111,733,85,761,66,764,71,736,89,709,115,685,144,644,208,613,270,594,321"/>
-<area shape="rect" id="Node000005" href="$class_galeri_1_1_xpetra_1_1_big_star2_d_problem.html" title=" " alt="" coords="751,99,985,168"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="599,320,654,249,692,211,733,178,754,166,757,170,736,182,695,215,658,253,603,323"/>
-<area shape="rect" id="Node000006" href="$class_galeri_1_1_xpetra_1_1_brick3_d_problem.html" title=" " alt="" coords="735,193,1001,247"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="619,323,672,290,734,258,766,245,768,250,736,262,675,294,622,328"/>
-<area shape="rect" id="Node000007" href="$class_galeri_1_1_xpetra_1_1_laplace1_d_problem.html" title=" " alt="" coords="751,272,985,341"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="700,331,750,323,751,328,700,336"/>
-<area shape="rect" id="Node000008" href="$class_galeri_1_1_xpetra_1_1_laplace2_d_problem.html" title=" " alt="" coords="751,365,985,435"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="700,370,751,378,750,384,700,375"/>
-<area shape="rect" id="Node000009" href="$class_galeri_1_1_xpetra_1_1_laplace3_d_problem.html" title=" " alt="" coords="751,459,985,528"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="623,379,676,412,736,444,763,456,761,461,734,449,673,416,620,383"/>
-<area shape="rect" id="Node000010" href="$class_galeri_1_1_xpetra_1_1_recirc2_d_problem.html" title=" " alt="" coords="735,553,1001,607"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="601,384,624,420,655,461,693,503,736,538,759,550,756,555,733,542,689,506,651,465,620,423,597,387"/>
-<area shape="rect" id="Node000011" href="$class_galeri_1_1_xpetra_1_1_star2_d_problem.html" title=" " alt="" coords="735,631,1001,686"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="593,385,612,437,642,500,684,564,708,593,736,618,753,629,750,633,733,622,705,596,679,567,638,502,607,439,588,387"/>
-<area shape="rect" id="Node000002" href="$class_galeri_1_1_xpetra_1_1_problem.html" title=" " alt="" coords="212,333,424,373"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="438,351,472,351,472,356,438,356"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,341,164,366"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,351,212,351,212,356,178,356"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="471,520,684,564"/>
+<area shape="rect" id="Node000004" href="$class_galeri_1_1_xpetra_1_1_anisotropic_diffusion2_d_problem.html" title=" " alt="" coords="776,5,986,84"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="579,504,589,421,613,311,633,253,658,195,691,141,730,93,751,77,777,65,773,69,754,82,734,97,695,144,663,198,638,255,618,313,594,422,584,506"/>
+<area shape="rect" id="Node000005" href="$class_galeri_1_1_xpetra_1_1_big_star2_d_problem.html" title=" " alt="" coords="764,108,998,187"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="583,503,599,438,627,356,647,314,670,272,698,232,731,197,766,176,762,179,734,201,702,236,675,274,652,316,632,358,604,440,588,506"/>
+<area shape="rect" id="Node000006" href="$class_galeri_1_1_xpetra_1_1_brick3_d_problem.html" title=" " alt="" coords="748,211,1014,273"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="589,503,609,454,639,394,679,334,704,307,731,283,752,272,747,275,734,287,707,310,684,337,643,397,614,456,593,506"/>
+<area shape="rect" id="Node000007" href="$class_galeri_1_1_xpetra_1_1_hex_f_e_m___lap_stiff_problem.html" title=" " alt="" coords="777,297,985,376"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="603,506,658,445,693,413,731,385,779,364,775,367,734,390,696,417,662,448,607,509"/>
+<area shape="rect" id="Node000008" href="$class_galeri_1_1_xpetra_1_1_hex_f_e_m___mass_problem.html" title=" " alt="" coords="777,400,985,479"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="659,512,779,473,774,476,662,517"/>
+<area shape="rect" id="Node000009" href="$class_galeri_1_1_xpetra_1_1_laplace1_d_problem.html" title=" " alt="" coords="764,503,998,581"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="699,539,767,541,762,543,701,545"/>
+<area shape="rect" id="Node000010" href="$class_galeri_1_1_xpetra_1_1_laplace2_d_problem.html" title=" " alt="" coords="764,605,998,684"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="660,567,766,605,761,606,660,572"/>
+<area shape="rect" id="Node000011" href="$class_galeri_1_1_xpetra_1_1_laplace3_d_problem.html" title=" " alt="" coords="764,708,998,787"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="606,574,662,636,696,667,734,694,767,713,761,713,731,699,693,671,658,639,605,579"/>
+<area shape="rect" id="Node000012" href="$class_galeri_1_1_xpetra_1_1_recirc2_d_problem.html" title=" " alt="" coords="748,811,1014,873"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="592,577,614,628,643,687,684,747,707,774,734,797,752,811,747,810,731,801,704,777,679,750,639,690,609,630,590,582"/>
+<area shape="rect" id="Node000013" href="$class_galeri_1_1_xpetra_1_1_scalar3_d__27_pt_problem.html" title=" " alt="" coords="732,896,1030,958"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="586,577,603,645,631,727,650,769,674,811,701,849,734,883,750,896,745,895,731,887,697,853,669,814,645,772,626,729,598,646,584,582"/>
+<area shape="rect" id="Node000014" href="$class_galeri_1_1_xpetra_1_1_star2_d_problem.html" title=" " alt="" coords="748,982,1014,1044"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="583,578,595,660,619,765,639,820,664,874,695,924,734,968,750,983,745,981,731,972,691,927,659,877,634,822,614,767,589,661,580,582"/>
+<area shape="rect" id="Node000002" href="$class_galeri_1_1_xpetra_1_1_problem.html" title=" " alt="" coords="212,520,423,564"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="438,540,473,541,468,543,440,544"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,528,164,556"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="178,540,213,540,209,544,180,544"/>
 </map>
